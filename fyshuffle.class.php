@@ -50,9 +50,9 @@ class FYShuffle
 	 **/
 	function __construct($min = null, $max = null){
 		if(is_numeric($min) && is_numeric($max)){
-      if($min >= $max) {
-        throw new exception('Max must be greater then min.');
-      }
+			if($min >= $max) {
+				throw new exception('Max must be greater then min.');
+			}
 			$this->_init_numeric($min, $max);
 		} elseif(is_array($min) && $max === null){
 			$this->_init_array($min);
