@@ -1,4 +1,3 @@
-
 FYShuffle
 =========
 
@@ -38,7 +37,7 @@ You simply pass you `array` to the ctor:
   ``$alphabet = range('a', 'z');
   $shuffle = new FYShuffle($alphabet);``
 
-After that you can fetch a random element the same way is in range mode:
+After that you can `fetch` a random element the same way is in range mode:
 
   ``$randomChar = $shuffle->fetch();``
 
