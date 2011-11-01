@@ -25,7 +25,7 @@ for ($i = 0; $i < 100000; $i++) {
 	$test[$result]++;
 
 	if(!test($test)) {
-		die('test failed');		
+		die('range test failed');		
 	}
 }
 
@@ -50,7 +50,7 @@ for ($i = 0; $i < 100000; $i++) {
 
 	if(!test($test)) {
 		print_r($test);
-		die('test failed');		
+		die('array test failed');		
 	}
 }
 
